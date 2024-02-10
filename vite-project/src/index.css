@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: white;
+}
+.trolly{
+    font-size: 1.6rem;
+    color: white;
+    position: relative;
+}
+.badge{
+    position: absolute;
+    top: -10px;
+    left: 19px;
+}
+.navbar-brand{
+    font-weight: 600;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.items{
+    display: grid;
+    grid-template-columns: auto auto  auto;
+    gap: 3rem;
+    
+
+}
